@@ -1,5 +1,5 @@
 
-class core-firewall::pre {
+class core_firewall::pre {
   Firewall {
     require => undef,
   }

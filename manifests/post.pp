@@ -1,4 +1,4 @@
-class core-firewall::post {
+class core_firewall::post {
   firewall { '999 drop all':
     proto   => 'all',
     action  => 'drop',
